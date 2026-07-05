@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Actions Demo App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <p class="eyebrow">Intern CI/CD Demo</p>
+      <h1>Shipped by GitHub Actions</h1>
+      <p class="lead">This page is tested, built, and deployed automatically whenever code changes are pushed to main.</p>
+      <section class="pipeline" aria-label="Pipeline stages">
+        <span>Code</span>
+        <span>Test</span>
+        <span>Build</span>
+        <span>Deploy</span>
+      </section>
+      <p id="build-info">Build: __BUILD_TIME__</p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
