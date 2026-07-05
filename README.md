@@ -5,7 +5,7 @@ This is a minimal static app for teaching GitHub Actions CI/CD.
 It demonstrates:
 - CI: automated tests run on every pull request and push.
 - Build: the app is copied into a deployable `dist/` folder.
-- CD: successful pushes to `main` deploy to GitHub Pages.
+- CD: successful pushes to `master` or `main` deploy to GitHub Pages.
 
 ## Local commands
 
@@ -23,7 +23,7 @@ Open `dist/index.html` in a browser after building.
 2. Push this project to the repository.
 3. Go to **Settings > Pages**.
 4. Set **Source** to **GitHub Actions**.
-5. Push to `main`, then watch **Actions**.
+5. Push to `master` or `main`, then watch **Actions**.
 
 ## Teaching points
 
