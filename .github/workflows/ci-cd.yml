@@ -1,4 +1,4 @@
-name: CI/CD
+name: TEST Application CI/CD
 
 on:
   push:
